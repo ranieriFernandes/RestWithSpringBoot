@@ -27,7 +27,7 @@ public class PersonServices {
 
 		entity.setFirstName(person.getFirstName());
 		entity.setLastName(person.getLastName());
-		entity.setAdress(person.getAdress());
+		entity.setAddress(person.getAddress());
 		entity.setGender(person.getGender());
 		
 		return repository.save(entity);
