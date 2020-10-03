@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.rest.webmvc.ResourceNotFoundException;
 import org.springframework.stereotype.Service;
 
-import br.com.erudio.model.Person;
+import br.com.erudio.data.model.Person;
 import br.com.erudio.repository.PersonRepository;
 
 @Service
